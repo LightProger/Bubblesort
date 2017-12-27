@@ -46,7 +46,7 @@ int OtriChisla()
         }
         fclose(file);
 
-        printf("Вы ввели такой массив: ");
+        printf("Сгенерирован и записан массив: ");
         for (i = 0; i < max; i++)
             printf("%d ", g[i]);
 
@@ -63,7 +63,7 @@ int OtriChisla()
         printf("Результат: ");
         for (i = 0; i < n; i++)
 
-            printf("%d, ", g[i]);
+            printf("%d ", g[i]);
 
     }
 
